@@ -1,0 +1,30 @@
+{
+  "name": "taskly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "clipboardy": "^4.0.0",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.4.2",
+    "lowdb": "^7.0.1",
+    "moment": "^2.30.1",
+    "node-cron": "^3.0.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "prettier": "^3.5.2"
+  },
+  "bin": {
+    "taskly": "./index.js"
+  }
+}
