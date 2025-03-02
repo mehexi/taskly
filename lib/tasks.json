@@ -7,8 +7,24 @@
   },
   {
     "id": 2,
+    "time": 1740891158884,
     "task": "new task",
-    "status": "done",
-    "priority": "medium"
+    "status": "pending",
+    "priority": "low"
+  },
+  {
+    "id": 3,
+    "time": 1740892275244,
+    "task": "new task",
+    "status": "pending",
+    "priority": "low"
+  },
+  {
+    "id": 4,
+    "time": 1740892428582,
+    "task": "new task",
+    "status": "pending",
+    "priority": "low",
+    "lastDay": "2025-03-02 12:00"
   }
 ]
