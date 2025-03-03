@@ -1,7 +1,13 @@
+#!/usr/bin/env node
 import todo from "./lib/todo.js";
 import inquirer from "inquirer";
 
-const main = async () => {
+export const main = async () => {
+  const args = process.argv.slice(2);
+  if (args[0] === "todo") {
+    await todo();
+    return;
+  }
   //choices propmpts
   const { choice } = await inquirer.prompt([
     {
