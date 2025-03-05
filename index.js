@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import todo from "./lib/todo.js";
 import inquirer from "inquirer";
+import timeTracking from "./lib/timeTracking.js";
 
 export const main = async () => {
   const args = process.argv.slice(2);
@@ -21,6 +22,9 @@ export const main = async () => {
   switch (choice) {
     case "todo":
       await todo();
+      break;
+    case "Time tracking":
+      await timeTracking();
       break;
 
     case "exit":
